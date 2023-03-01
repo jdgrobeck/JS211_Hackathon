@@ -1,0 +1,20 @@
+{
+  "name": "js211_hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdgrobeck/JS211_Hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdgrobeck/JS211_Hackathon/issues"
+  },
+  "homepage": "https://github.com/jdgrobeck/JS211_Hackathon#readme"
+}

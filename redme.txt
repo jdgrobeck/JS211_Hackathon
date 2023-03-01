@@ -1,0 +1,8 @@
+Challenge: Reveal a letter from a word if a user inputs that letter and it exists in the word. If it doesn't let the user know.
+
+DONE Create a predefined solution with array of solutions and pick one (or randomly generate)
+DONE Create letters for player to choose from
+DONE Check to see if the letter is in the solution
+DONE If so, put the letter in the write place
+If not, display a message and ask for another letter
+Display correctly guessed letter in corresponding index on console.log

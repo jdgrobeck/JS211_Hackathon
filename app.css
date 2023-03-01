@@ -1,0 +1,166 @@
+* {
+    font-family: 'Karla', sans-serif;
+    
+}
+
+body {
+    background-color: rgb(24, 178, 109);
+    color: rgb(68, 69, 72);
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.hangman-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    
+    
+}
+
+#solution-board {
+    margin-top: -20px;
+    
+
+}
+
+#message {
+    text-align: center;
+}
+
+.title-wrapper {
+    margin-bottom: -70px;
+
+}
+
+h1 {
+    size: 48px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  } 
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-top: 100px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    min-height: 100vh;
+    
+} 
+
+
+#user-input {
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: rgb(4, 54, 4);
+}
+
+.button-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+    #message {
+        word-wrap: inherit;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    #solution-board {
+        margin-bottom: 10px;
+    }
+
+    img {
+        height: 400px;
+        width: 400px;
+        border-radius: 50px;
+    }
+
+    #button-wrapper {
+        margin-bottom: -20px;
+    }
+   
+}
+
+ @media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    #message {
+       padding-top: -10px;
+       text-align: center;
+    }
+
+    img {
+        height: 400px;
+        width: 400px;
+        border-radius: 50px;
+    }
+
+    .container {
+        padding-top: -50px;
+        padding-bottom: -100px;
+    }
+
+   
+   
+} 
+
+/* Responsove To-do
+Fix margins on #message
+ */
+
+
+/* DONE Decide new design
+Make input field biiger?
+Style button
+Fix margins
+ Make underscores bigger
+ DONE Pick new font
+ DONE Animated h1?
+ DONE Remove background color and border on hang-man wrapper?*/
+ 
